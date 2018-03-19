@@ -1,0 +1,19 @@
+sudo apt-get
+
+installed git - also made a new ssh and github linked to github
+
+for node it seemed to only show legacy, had to use below to get latest version:
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+apt sudo-get install -y nodejs
+
+installed node, npm, react, virtualenv, flask, mongodb
+
+sudo service mongod start
+
+cd to /var/log/mongodb/mongod.log to check it's working - that files also
+shows connections to mongod etc. Not quite sure how to make that appear 
+in the terminal instead
+
+mongo
+
+sudo service mongod stop
